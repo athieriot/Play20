@@ -201,6 +201,7 @@ object PlayBuild extends Build {
             "javax.transaction"                 %    "jta"                      %   "1.1",
             "tyrex"                             %    "tyrex"                    %   "1.0.1",
             "org.specs2"                        %%   "specs2"                   %   "1.7.1"      %  "test",
+
             "net.sf.ehcache"                    %    "ehcache-core"             %   "2.5.0",
             "com.novocode"                      %    "junit-interface"          %   "0.7"        %  "test",
             "fr.javafreelance.fluentlenium"     %    "fluentlenium"             %   "0.5.3"      %  "test"
@@ -234,7 +235,8 @@ object PlayBuild extends Build {
         val testDependencies = Seq(
             "org.specs2"                        %%   "specs2"                   %   "1.7.1",
             "com.novocode"                      %    "junit-interface"          %   "0.7",
-            "fr.javafreelance.fluentlenium"     %    "fluentlenium"             %   "0.5.3"
+            "fr.javafreelance.fluentlenium"     %    "fluentlenium"             %   "0.5.3",
+            "org.mockito"                       %    "mockito-all"              %   "1.9.0"
         )
 
     }
